@@ -32,7 +32,7 @@ program
   .command('pr')
   .description('Create a GitHub Pull Request for the specified branch')
   .option('-b, --base-branch, <baseBranch>', 'The base branch to perform this action on')
-  .action(handle.pullRequest);
+  .action(handle.pr);
 
 program
   .command('open')
