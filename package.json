@@ -1,12 +1,16 @@
 {
   "name": "mgit_js",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Run Git work flows for GitHub with issue tracking ticket numbers.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Git",
+    "GitHub",
+    "CLI"
+  ],
+  "author": "Greg Answer",
   "license": "ISC"
 }
