@@ -1,5 +1,5 @@
 {
-  "name": "mgit_js",
+  "name": "mgit",
   "version": "0.0.1",
   "description": "Run Git work flows for GitHub with issue tracking ticket numbers.",
   "main": "index.js",
