@@ -33,6 +33,12 @@ program
   .command('pr')
   .description('Create a GitHub Pull Request for the specified branch')
   .option('-b, --base-branch, <baseBranch>', 'The base branch to perform this action on')
+  .option('--commit', "Commit the changes")
+  .option('--no-commit', "Don't commit the changes")
+  .option('--no-push', "Don't push the changes to origin")
+  .option('--rebase', "Rebase off base branch")
+  .option('--no-rebase', "Don't prompt to rebase off base branch")
+  .option('--no-open', "Don't open the pull request in the browser")
   .action(handle.pr);
 
 program
