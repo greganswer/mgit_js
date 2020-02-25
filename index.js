@@ -24,8 +24,9 @@ program
 program
   .command('commit')
   .description('Create a commit and push to GitHub')
-  .option('-m, --message, <message>', 'The commit message')
   .option('--id, --issue-id, <issueId>', 'The ID of the issue being worked on')
+  .option('-m, --message, <message>', 'The commit message')
+  .option('--no-push', "Don't push the changes to origin")
   .action(handle.commit);
 
 program
