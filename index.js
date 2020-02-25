@@ -1,6 +1,6 @@
-const chalk = require('chalk');
+const chalk = require('chalk'); // https://github.com/chalk/chalk
 const figlet = require('figlet');
-const program = require('commander');
+const program = require('commander'); // https://github.com/tj/commander.js
 
 const pkg = require('./package.json');
 const handle = require('./lib/handle');
