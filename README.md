@@ -1,8 +1,10 @@
 # mgit_js
 
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
+  - [References](#references)
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
@@ -10,7 +12,18 @@
 
 mGit rewritten in Javascript 
 
+## Requirements
+
+- [Node.js](http://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [GitHub account](https://github.com/)
+
 ## Installation
+
+1. Clone repo
+2. Run `npm install`
+3. Install the module globally with `npm install -g` from within the project directory
+4. Run `mgit`
 
 ## Usage
 
@@ -37,6 +50,11 @@ mgit tag
 ```
 
 ## Development
+
+### References
+
+- https://www.sitepoint.com/javascript-command-line-interface-cli-node-js
+- https://www.twilio.com/blog/how-to-build-a-cli-with-node-js
 
 ## Testing
 
