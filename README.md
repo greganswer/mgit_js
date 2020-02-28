@@ -10,7 +10,7 @@
 - [License](#license)
 - [Code of Conduct](#code-of-conduct)
 
-mGit rewritten in Javascript 
+[mGit](https://github.com/greganswer/mgit) rewritten in Javascript 
 
 ## Requirements
 
