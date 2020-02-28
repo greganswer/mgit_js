@@ -1,5 +1,7 @@
 # mgit_js
 
+[mGit](https://github.com/greganswer/mgit) rewritten in Javascript 
+
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,8 +11,6 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Code of Conduct](#code-of-conduct)
-
-[mGit](https://github.com/greganswer/mgit) rewritten in Javascript 
 
 ## Requirements
 
